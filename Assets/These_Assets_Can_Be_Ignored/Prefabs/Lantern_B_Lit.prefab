@@ -50,11 +50,11 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.6888379
+  - screenRelativeHeight: 0.999
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 4450356971450547747}
-  - screenRelativeHeight: 0.28610063
+  - screenRelativeHeight: 0.09856879
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7078165005425461562}
@@ -107,7 +107,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.8116398, b: 0, a: 1}
   m_Intensity: 0.5
   m_Range: 0.58996725
   m_SpotAngle: 30
