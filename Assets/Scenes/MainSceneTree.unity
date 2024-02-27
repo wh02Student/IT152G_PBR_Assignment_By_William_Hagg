@@ -67323,6 +67323,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6555430345858346380, guid: a7a1d43e8ef20c345bf45f926fa33100,
+        type: 3}
+      propertyPath: m_ImportantGI
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555430345858346380, guid: a7a1d43e8ef20c345bf45f926fa33100,
+        type: 3}
+      propertyPath: m_MinimumChartSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555430345858346380, guid: a7a1d43e8ef20c345bf45f926fa33100,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7264812051580354945, guid: a7a1d43e8ef20c345bf45f926fa33100,
         type: 3}
       propertyPath: m_StaticEditorFlags
