@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.8018868, g: 0.5635902, b: 0.6456581, a: 1}
+  m_FogColor: {r: 0.50614095, g: 0.78180283, b: 0.8867924, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.007
   m_LinearFogStart: 24.1
@@ -1447,7 +1447,7 @@ PrefabInstance:
     - target: {fileID: 8751747515220965410, guid: ad1388520e8578a4c918f0e94ae9b081,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.603
+      value: -2.58
       objectReference: {fileID: 0}
     - target: {fileID: 8751747515220965410, guid: ad1388520e8578a4c918f0e94ae9b081,
         type: 3}
@@ -1457,7 +1457,7 @@ PrefabInstance:
     - target: {fileID: 8751747515220965410, guid: ad1388520e8578a4c918f0e94ae9b081,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.163
+      value: -1.169
       objectReference: {fileID: 0}
     - target: {fileID: 8751747515220965410, guid: ad1388520e8578a4c918f0e94ae9b081,
         type: 3}
@@ -20167,6 +20167,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 849837390727457844, guid: 52b4775c07dc89e49abbc8252a5b9999,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.32893473
+      objectReference: {fileID: 0}
     - target: {fileID: 1210279635779587553, guid: 52b4775c07dc89e49abbc8252a5b9999,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20177,10 +20182,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 4458052050543914748, guid: 52b4775c07dc89e49abbc8252a5b9999,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.93563235
+      objectReference: {fileID: 0}
     - target: {fileID: 4734612791453233011, guid: 52b4775c07dc89e49abbc8252a5b9999,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535925167396785830, guid: 52b4775c07dc89e49abbc8252a5b9999,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.60416716
       objectReference: {fileID: 0}
     - target: {fileID: 7412442943045775309, guid: 52b4775c07dc89e49abbc8252a5b9999,
         type: 3}
@@ -41074,6 +41089,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897923704882416162, guid: 8de397953cc5b734086144c6e12e6343,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897923704882416162, guid: 8de397953cc5b734086144c6e12e6343,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.725
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897923704882416162, guid: 8de397953cc5b734086144c6e12e6343,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: 7108033821923780750, guid: 8de397953cc5b734086144c6e12e6343,
         type: 3}
