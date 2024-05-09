@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.50614095, g: 0.78180283, b: 0.8867924, a: 1}
+  m_FogColor: {r: 0.56559277, g: 0.7735849, b: 0.7242672, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.007
   m_LinearFogStart: 24.1
@@ -2619,6 +2619,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 4147020025088320262, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4aaf499561b4d442b6d80463bc2606e, type: 2}
     - target: {fileID: 7712267987761773281, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
         type: 3}
       propertyPath: m_Name
@@ -2629,6 +2634,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7860194015223806221, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6c2d998ed02006249bd491c8fd0080ad, type: 2}
     - target: {fileID: 8508980574398929112, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2642,12 +2652,12 @@ PrefabInstance:
     - target: {fileID: 8520553770079248601, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
         type: 3}
       propertyPath: m_LODs.Array.data[0].screenRelativeHeight
-      value: 0.38276732
+      value: 0.11374961
       objectReference: {fileID: 0}
     - target: {fileID: 8520553770079248601, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
         type: 3}
       propertyPath: m_LODs.Array.data[1].screenRelativeHeight
-      value: 0.036984295
+      value: 0.035197053
       objectReference: {fileID: 0}
     - target: {fileID: 8520553770079248601, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
         type: 3}
@@ -11254,7 +11264,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.5803922, g: 0.94509804, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.90588236, b: 0.49411765, a: 1}
   m_Intensity: 2
   m_Range: 5
   m_SpotAngle: 131.77638
@@ -12981,7 +12991,7 @@ Light:
     m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.8
+    m_Strength: 0.7
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -14876,6 +14886,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7412442943045775309, guid: 52b4775c07dc89e49abbc8252a5b9999,
     type: 3}
   m_PrefabInstance: {fileID: 453825455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &455825570 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7860194015223806221, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1821973436}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &458379125
 PrefabInstance:
@@ -25570,15 +25586,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823968771}
-  m_LocalRotation: {x: -0, y: 0.00096445077, z: -0, w: 0.9999996}
-  m_LocalPosition: {x: 0.9, y: 1, z: -5.53}
+  m_LocalRotation: {x: -0, y: -0.7735151, z: -0, w: 0.63377786}
+  m_LocalPosition: {x: 12.205, y: 1.62, z: -12.703}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 330585546}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0.111, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -101.341, z: 0}
 --- !u!114 &823968778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31665,7 +31681,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.5803922, g: 0.9463431, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.90588236, b: 0.49411765, a: 1}
   m_Intensity: 2
   m_Range: 5
   m_SpotAngle: 120.746796
@@ -34706,6 +34722,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 3276072495004946286, guid: fa9ff628c85942a48b473341175ffc43,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7593355604327622823, guid: fa9ff628c85942a48b473341175ffc43,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34714,12 +34735,12 @@ PrefabInstance:
     - target: {fileID: 8028474901422375968, guid: fa9ff628c85942a48b473341175ffc43,
         type: 3}
       propertyPath: m_LODs.Array.data[0].screenRelativeHeight
-      value: 0.27164894
+      value: 0.19129546
       objectReference: {fileID: 0}
     - target: {fileID: 8028474901422375968, guid: fa9ff628c85942a48b473341175ffc43,
         type: 3}
       propertyPath: m_LODs.Array.data[1].screenRelativeHeight
-      value: 0.080318384
+      value: 0.053914648
       objectReference: {fileID: 0}
     - target: {fileID: 8028474901422375968, guid: fa9ff628c85942a48b473341175ffc43,
         type: 3}
@@ -57480,14 +57501,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8520553770079248601, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
         type: 3}
+      propertyPath: m_LODs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520553770079248601, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
+        type: 3}
       propertyPath: m_LODs.Array.data[0].screenRelativeHeight
-      value: 0.35455906
+      value: 0.12174374
       objectReference: {fileID: 0}
     - target: {fileID: 8520553770079248601, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
         type: 3}
       propertyPath: m_LODs.Array.data[1].screenRelativeHeight
-      value: 0.15268484
+      value: 0.03608529
       objectReference: {fileID: 0}
+    - target: {fileID: 8520553770079248601, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
+        type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.10451191
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520553770079248601, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
+        type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 455825570}
     - target: {fileID: 9111042866109437729, guid: d4f8c9bd7f2e05b48b7cfa9679ecccfd,
         type: 3}
       propertyPath: m_StaticEditorFlags
